@@ -1,0 +1,7 @@
+applications:
+- path: ./dist
+  memory: 512M
+  instances: 1
+  name: dxcnodejs-test
+  disk_quota: 512M
+  command: cross-env ENV_FILE=production node -r module-alias/register start.js
