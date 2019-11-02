@@ -46,7 +46,7 @@ Por ultimo se debe ejecutar el siguiente comando:
 ```bash
 npm run deploy
 ```
-Este comando se encargara de empezar el despliegue en ibmcloud usando la configuración descrita en el archivo manifest.yml, por debajo ejecuta el siguiente comando: 
+Este comando se encargara de empezar el despliegue en ibmcloud usando la configuración descrita en el archivo manifest.yml, se debe cambiar el nombre de la app porque ese nombre ya esta asociado a mi usuario, por debajo ejecuta el siguiente comando: 
 
 ```bash
 bluemix app push
