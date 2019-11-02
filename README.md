@@ -8,7 +8,21 @@ Ingresar a la carpeta del repositorio y ejecutar el siguiente comando para insta
 npm install
 ```
 
+## Ambiente de desarrollo
+
+Para ejecutar la aplicación de manera local se debe ejecutar el siguiente comando
+
+```bash
+start-dev
+```
+
+
 ## Depliegue
+
+Tener en cuenta que para realizar los siguientes pasos se debe crear una cuenta en Ibmcloud, instalar el bluemix-cli y por ultimo logearse usando 
+```bash
+ibmcloud login --sso
+```
 
 La aplicación contiene varios scripts en el archivo package.json, para desplegar primero es necesario ejecutar el script:
 
@@ -37,7 +51,6 @@ Este comando se encargara de empezar el despliegue en ibmcloud usando la configu
 ```bash
 bluemix app push
 ```
-
 
 ## Créditos
 Esta aplicación ha sido desarrollada por Juan David Rincón
