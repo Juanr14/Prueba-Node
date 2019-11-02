@@ -13,7 +13,7 @@ npm install
 Para ejecutar la aplicación de manera local se debe ejecutar el siguiente comando
 
 ```bash
-start-dev
+npm run start-dev
 ```
 
 
